@@ -3,12 +3,23 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Barbearia Alura</title>
+		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 
 	<body>
 		<header>
-			<h1 class="titulo-principal"> Barbearia Alura</h1>
+			<div class="caixa">
+				<h1 id="logo"><a href="index.html"><img src="img/logo-branco.png"></a></h1>
+
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="produtos.html">Produtos</a></li>
+						<li><a href="contatos.html">Contatos</a></li>
+					</ul>
+				</nav>
+			</div>
 		</header>
 
 		<img src="img/banner.jpg" id="banner" >
@@ -23,16 +34,23 @@
 		</div>
 
 		<div class="beneficios">
-			<h3 class="titulo-centralizado">Benefícios</h3>
 
+			<img src="img/beneficios.jpg" class="imagembeneficios">
+	
+			<h3 class="titulo-beneficios">Benefícios</h3>
+	
 			<ul>
 				<li class="itens">Atendimento aos Clientes</li>
 				<li class="itens">Espaço diferenciado</li>
 				<li class="itens">Localização</li>
 				<li class="itens">Profissionais Qualificados</li>
 			</ul>
-
-			<img src="img/beneficios.jpg" class="imagembeneficios">
 		</div>
+		
+
+		<footer>
+			<a href="index.html"><img src="img/logo-branco.png" alt="logo BarbeariaAlura"></a>
+			<p class="copyright">&copy; Copyright Barbearia Alura - 2020</p>
+		</footer>
 	</body>
 </html>
