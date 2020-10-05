@@ -1,11 +1,50 @@
+header {
+	background: #270014;
+	padding: 20px 0;
+}
+
+body {
+	background-color: #270014;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+	filter: drop-shadow(1px -1px 1px #000000); 
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color:#C78C19;
+	text-decoration: underline;
+}
 
 #banner {
 	width:100%;
 }
 
 .principal{
-	background: #CCCCCC;
-	padding: 30px;
+	background: #270014;
+	padding: 100px;
 }
 
 .titulo-principal {
@@ -13,11 +52,27 @@
 }
 
 .titulo-centralizado {
-    text-align: center;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 20px;
+	font-family: 'Courier New', Courier, monospace;
+	color: #ffffff;
+}
+
+.titulo-beneficios {
+	color: #ffffff;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 20px;
+	font-family: 'Courier New', Courier, monospace;
 }
 
 p {
 	text-align: center;
+	padding: 10px;
+	color: #ffffff;
 }
 
 #missao {
@@ -25,26 +80,37 @@ p {
 }
 
 em strong {
-	color: #FF0000;
+	color: #fc2fda;
 }
 
 .itens {
-	font-style: italic
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Courier New', Courier, monospace;
+	text-align: center;
+	padding: 5px;
 }
 
 .beneficios {
-	background: #FFFFFF;
-	padding: 20px;
+	background: #270014;
+	margin-bottom: 50px;
 }
 
-
-ul {
-	display: inline-block;
-	vertical-align: top;
-	width: 20%;
-	margin-right: 15%;
-}
 
 .imagembeneficios {
-	width: 50%;
+	width: 100%;
+}
+
+footer {
+    text-align: center;
+	padding: 40px 0;
+	background: url(file:///C:/Users/mande/OneDrive/%C3%81rea%20de%20Trabalho/Logica/Barbearia%20Alura/img/bg.jpg);
+	filter: saturate(32%) invert(87%) drop-shadow(2px -2px 2px#270014); 
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
 }
