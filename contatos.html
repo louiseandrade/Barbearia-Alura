@@ -2,7 +2,7 @@
     <html>
         <head>
             <meta charset="UTF-8">
-            <title>Produtos - Barbearia Alura</title>
+            <title>Contato - Barbearia Alura</title>
             <link rel="stylesheet" href="css/reset.css">
             <link rel="stylesheet" href="css/contatos.css">
         </head>
@@ -15,37 +15,88 @@
                         <ul>
                             <li><a href="index.html">Home</a></li>
                             <li><a href="produtos.html">Produtos</a></li>
-                            <li><a href="contato.html">Contatos</a></li>
+                            <li><a href="contato.html">Contato</a></li>
                         </ul>
                     </nav>
                 </div>
             </header>
 
-            <form name="formteste" action="" method="post">
+            <main>
+                <form name="formteste" action="" method="post">
 
-                <h1>Contato</h1>
-                
-                <p class="nome">
-                 <input type="text" name="nome" placeholder="Nome" required="required">
-                 </p>
-                
-                <p class="email">
-                 <input type="email" name="email" placeholder="E-mail" required="required">
-                 </p>
-                
-                <p class="assunto">
-                 <input type="text" name="assunto" placeholder="Assunto" required="required">
-                 </p>
-                
-                <p class="mensagem">
-                 <textarea name="mensagem" placeholder="Deixe sua mensagem!"></textarea>
-                 </p>
-                
-                <p class="enviar">
-                 <input type="submit" name="enviar" value="Enviar">
-                 </p>
-                
-                </form>
+                        <h1>Contato</h1>
+                        
+                        <label for="nomesobrenome"> Nome e sobrenome</label>
+                        <input type="text" id="nomesobrenome" class="input-padrao">
+
+                        <label for="email"> E-mail</label>
+                        <input type="text" id="email" class="input-padrao">
+
+                        
+                        <label for="telefone"> Telefone</label>
+                        <input type="text" id="telefone">
+
+                        <label for="mensagem">Mensagem</label>
+                        <textarea cols="70" rows="10" id="mensagem" class="input-padrao"> </textarea>
+
+                        <fieldset>
+                            <legend class="pergunta">Como prefere o nosso contato?</legend>
+                            <label for="radio-email">
+                                <input type="radio" name="contato" value="email" id="radio-email">
+                                Email
+                            </label>
+                        
+                            <label for="radio-telefone">
+                                <input type="radio" name="contato" value="telefone" id="radio-telefone"> 
+                                Telefone
+                            </label>
+                        
+                            <label for="radio-whatsapp">
+                                <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
+                                WhatsApp
+                            </label>
+                        </fieldset>
+                        
+                        <fieldset>
+                            <legend class="pergunta">Qual horário prefere ser atendido?</legend>
+                            <select>
+                                <option>Manhã</option>
+                                <option>Tarde</option>
+                                <option>Noite</option>
+                            </select>
+                        </fieldset>
+
+                        <label class="checkbox"><input type="checkbox"> Gostaria de receber nossas novidades por e-mail?</label>
+
+                        <p class="enviar">
+                            <input type="submit" name="enviar" value="Enviar">
+                        </p>
+                    </form>
+            </main>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horário</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Segunda</td>
+                        <td>8h ~ 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Quarta</td>
+                        <td>8h ~ 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Sexta</td>
+                        <td>8h ~ 20h</td>
+                    </tr>
+                </tbody>
+            </table>
+            
                 
 
             <footer>

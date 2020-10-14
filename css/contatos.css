@@ -35,29 +35,68 @@ nav a:hover {
 	text-decoration: underline;
 }
 
-form{
-    font-size: 30px;
-    max-width: 500px;
-    margin: 50px auto;
-    padding: 50px 50px 50px 50px;
-    text-align: center;
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #333333;
     text-transform: uppercase;
     font-family: 'Courier New', Courier, monospace;
-    }
-    
-    h1{
-    color: #333
-    }
-    
-    input, textarea{
-    width: 474px;
-    padding: 10px;
-    }
-    
-    p {
-        padding: 5px;
-    }
-    .enviar input {
+    font-size: 30px;
+    margin: 50px auto;
+}
+
+.pergunta {
+margin: 50px 0;
+}
+
+form {
+    margin: 40px 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+form label {
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form label, form legend {
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form input {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+form input, form textarea {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+	margin: 20px 0;
+	display: inline;
+}
+
+.enviar input {
+	margin-top: 30px;
     background-color: #270014;
     height: 40px;
     width: 150px;
@@ -71,20 +110,34 @@ form{
     }
     
     .enviar input:hover{
-    background: #fc2fda;
-    }
-    
-    textarea {
-    width: 474px;
-    height: 120px;
-    line-height: 20px;
-    }
+	background: #fc2fda;
+	transform: scale(1.2);
+	}
 
+	table {
+		margin: 20px 0 40px;
+		width: 20%;
+		text-align: center;
+		margin-left: 25%;
+	}
+	
+	thead {
+		background: #555555;
+		color: white;
+		font-weight: bold;
+		align-content: center;
+	}
+	
+	td, th {
+		border: 1px solid #000000;
+		padding: 8px 15px;
+	}
+	
 footer {
     text-align: center;
 	padding: 40px 0;
 	background: url(file:///C:/Users/mande/OneDrive/%C3%81rea%20de%20Trabalho/Logica/Barbearia%20Alura/img/bg.jpg);
-	filter: saturate(32%) invert(87%) drop-shadow(2px -2px 2px#270014); 
+	filter: drop-shadow(2px -2px 2px #270014); 
 }
 
 .copyright {
